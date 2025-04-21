@@ -13,7 +13,7 @@ func TestAdder(t *testing.T) {
 	}
 }
 
-func ExampleAdd() {
+func ExampleAdder() {
 	sum := Adder(1, 5)
 	fmt.Println(sum)
 	// Output: 6
